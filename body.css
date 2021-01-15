@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/bgpweb1.png);
+    background-size: 100%;
+}
+.form{
+    margin: auto;
+    width: 40%;
+    border-color:rgba(0, 0, 0, 0);
+    align-items: center;
+}
+.form h1{
+    color: brown;
+    font-size: 250%;
+}
+.form p{
+    font-size: 100%;
+    color: rgb(160, 13, 13);
+}
+input[type=text], input[type=password], input[type=number] {
+    margin: 1% auto;
+    width: 100%;
+    padding: 2%;
+    align-items: center;
+}
+.daftar button {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: px;
+    background-color: rgb(160, 13, 13);
+    text-decoration: none;
+}
+.daftar a{
+    color: white;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.daftar :hover{
+    transform: scale(1.2);
+}
+.vespa img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-left: 100%;
+}

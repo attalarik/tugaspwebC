@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>Dimsum Enak</title>
+    <link rel="icon" type="image/png" href="images/dimsum.png"> 
+    <link rel="stylesheet" href="css/css_reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/dimsum.png">
+        <div class="top">
+            <ul>
+                <li><a href="index.html" >Beranda</a></li>
+                <li><a href="daftarmenu.html">Menu</a></li>
+                <li><a href="form.html"class="aktif">Pemesanan</a></li>
+                <li><a href="Review.html">Review</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="BG.html">Masuk</a></li>
+            </ul>
+            <h1 style="font-size: 1.5vw;">Dimsum Enak</h1>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Pemesanan</h1>
+    <div class="tabel">
+        <form >
+            <table style="display: inline;">
+                <tr class="kotak">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <td><label style="font-size: 1.3vw">Menu yang dipilih</label></td>
+                    <td><label style="margin-left: 25%; font-size: 1.3vw;">Jumlah</label></td>
+                    <td><label style="margin-left: 35%; font-size: 1.3vw;">Alamat Lengkap</label></td>
+                </tr>
+                    <td><input class='menu1' type="text" placeholder=""></td>
+                    <td><input class="menu2" type="text" placeholder=""> </td>
+                    <td><input class="menu3" type="text" placeholder=""></td>
+            </table>
+            <table style="display: inline;">
+                <tr>
+                    <br>
+                    <td><label style="font-size: 1.3vw;">Menu yang dipilih</label></td>
+                    <td><label style="margin-left: 25%; font-size: 1.3vw;">Jumlah</label></td>
+                    <td><label style="margin-left: 35%; font-size: 1.3vw;">Catatan</label></td>
+                </tr>
+                    <td><input class='menu1' type="text" placeholder=""></td>
+                    <td><input class="menu2" type="text" placeholder="" ></td>
+                    <td><input class="menu3" type="text" placeholder=""></td>
+            </table>
+            <br>
+            <br>
+            <div class="bayar" style="font-size: large;" >
+                    <p style="font-size: 3vw;">Ongkir</p>    
+                    <br>
+                    <p style="font-size: 1vw;">
+                        Kurang dari 1km = Gratis Ongkir
+                        <br>
+                        Jarak 1 km - 5km = Rp. 7000
+                        <br>
+                        Jarak Lebih dari 5km = Rp. 10000
+                    </p> 
+            </div>
+            <div class="pilihan">
+                <form class="pilihan" action="/action_page.php">
+                    <p style="font-size: 1.3vw;"> <b>Pilih Metode Pembayaran :</b></p>
+                    <input type="radio" id="Langsung" name="Pembayaran" value="Langsung">
+                    <label for="Langsung" style="font-size: 1.3vw;">Langsung</label>
+                    <input type="radio" id="Transfer" name="Pembayaran" value="Transfer">                       
+                    <label for="Transfer" style="font-size: 1.3vw;">Transfer</label><br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="vespa">
+                <img src="images/motor1.png" alt="" >
+            </div>
+            <table>
+                <tr>
+                    <td><label style="margin-left: 78%; margin-top: 20%; font-size: 1.3vw;" >Total harga</label></td>
+                </tr>
+                    <td><input class="menu5" type="text" placeholder=""></style></td>
+            </table>
+        </div>
+        </form>
+    </div>
+
