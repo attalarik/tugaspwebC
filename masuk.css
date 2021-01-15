@@ -1,0 +1,60 @@
+body{
+    background-image: url(../images/bgpweb1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.gambar{
+    width: 100%;
+    height: auto;
+}
+.bagian_kiri{
+    width: 50%;
+    float: left;
+}
+.bagian_kiri img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: -5%;
+    margin-top: -5%;
+}
+.bagian_kiri p{
+    display: block;
+    color: rgb(160, 13, 13);
+    font-size: 5vw;
+    text-align: center;
+}
+.bagian_kiri p:nth-child(4){
+    color: rgb(255, 92, 92);
+    font-size: 3vw;
+}
+.bagian_kiri p:nth-child(6){
+    color: rgb(49, 49, 49);
+    font-size: 1.5vw;
+    margin-left: 18%;
+    text-align: left;
+}
+.bagian_kanan{
+    float: left;
+    width: 50%;
+}
+.bagian_kanan img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+.bagian_kanan button:hover{
+    transform: scale(1.3);
+}
+.bagian_kanan button {
+    display: block;
+    margin: auto;
+    width: 15vw;
+    background-color: rgb(160, 13, 13);
+    text-decoration: none;
+}
+.bagian_kanan button a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+}

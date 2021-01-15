@@ -1,0 +1,98 @@
+body{
+    background-size: 100%;
+    background-image: url(../images/bgpweb1.png);
+}
+.header {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0%;
+}
+.container{
+    overflow: auto;
+    margin-left: auto;
+    margin-right: 400px;
+    padding: 20px;
+    margin: 0px auto;
+    width: 95%;
+    margin-bottom: 310px;
+    overflow: hidden;
+}
+.container h1{
+    width: 50%;
+    float: left;
+    font-size: 32px;
+    text-align: left;
+    color: brown;
+}
+.top{
+    margin-top: -5%;
+    padding-top: 1.5cm;
+    padding-bottom: 0.5cm;
+}
+.top ul{
+    width: 400px;
+    float: right;
+}
+
+.top li{
+    display: inline;
+    margin: 1%;
+    margin-top: 1cm;
+    
+}
+.top li a{
+    color:black;
+    text-decoration: none;
+}
+.top li .aktif{
+    font-weight: bold;
+}
+
+.top li a:hover{
+    color: yellowgreen;
+    font-weight: bold;
+}
+.search{
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    width: 400px;
+    float: right;
+    height: 1cm;
+}
+.search input {
+    width: 400px;
+    height: 0.6cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-image: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.table {
+width: 100%;
+background-color: white;
+opacity: 0.9;
+}
+
+td, th {
+border: 1px solid black;
+text-align: left;
+padding: 8px;
+}
+
+
+tr:nth-child(even) {
+background-color: rgba(244, 245, 206, 0.8);
+}
+tr:nth-child(odd) {
+background-color:rgba(250, 156, 156, 0.8);
+}
+
+
+
+

@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html>
 <head>
     <title>Dimsum Enak</title>
-    <link rel="stylesheet" href="css_reset.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="images/dimsum.png"> 
+    <link rel="stylesheet" href="css/css_reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/masuk.css">
 </head>
 <body>
-    <div class="container">
-        <div class="daftar">
-            <form name="biodata" method="POST" action="log in.html">
-                <pre>
-                <div class="form">
-                    <h1>Register</h1>
-                    Username         <input id="username" placeholder="Enter Username" type="text" name="username">
-                    Password          <input id="password" placeholder="Enter Password" type="password" name="password">
-                    <div class="merah">Invalid Username or Password.</div>
-                    <center>
-                        <button class="button" data-toggle="modal" type="button" onclick="validate()">Log In</button>
-                    </center>
-                </pre>
-                </div>
-            </form>
-        </div>     
-        <div class="modal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <center>
-                            <h2>Log In Success!</h2>
-                        </center>
-                            
-                    </div>
-                </div>
+    <div class="header">
+            <img src="images/dimsum.png">
+            <div class="top">
+                <ul>
+                    <li><a href="index.html"class="aktif" >Beranda</a></li>
+                    <li><a href="daftarmenu.html">Menu</a></li>
+                    <li><a href="form.html">Pemesanan</a></li>
+                    <li><a href="Review.html">Review</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="BG.html">Masuk</a></li>
+                </ul>
+                <h1 style="font-size: 1.5vw;">Dimsum Enak</h1>
+                <br>
+                <br>
+                <br>
             </div>
-        </div>
-        <p id="error_para" ></p>
     </div>
-    <script src="index.js" ></script>
-    </body>
-    </html>
+    <div class="container">
+    <div class="gambar">
+        <div class="bagian_kiri">
+            <img src="images/dimsum.png" alt="">
+            <p>Dimsum</p>
+            <p>Delivery</p>
+            <p>Nikmat dan Cepat</p>
+            <br>    
+            <p>
+                Dimsum Enak merupakan dimsum sehat yang sangat bermanfaat bagi tubuh terutama untuk kesehatan tulang Tak hanya baik untuk kesehatan, Dimsum Enak memiliki banyak varian rasa untuk menggugah selera penikmat. Jadi pesanlah Dimsum sekarang !!!
+            </p>
+            <audio hidden autoplay loop>
+                <source src="Sia - Snowman [Official Video].mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="bagian_kanan">
+            <img src="images/motor.png" alt="">
+            <button onclick="runPopup()">
+                <a href="daftarmenu.html">Order Sekarang</a>
+            </button>
+            <script> 
+            function runPopup(){
+            var respond = prompt("Masukkan Nama Anda: ");
+            if(respond != "")
+            {
+              window.alert("Hai, " + respond + "!");
+            }
+            else
+            {
+              window.alert("Pengguna Tidak Memasukkan Kalimat Apapun");
+            }
+            };
+          </script>
+        </div>
+    </div>
+</body>
+
+</html>
+

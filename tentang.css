@@ -1,0 +1,19 @@
+body{
+    background-image: url(../images/bgpweb1.png);
+    background-size: 100%;
+}
+.gambar{
+    width: 100%;
+    height: auto;
+}
+.gambar img{
+    width: 30%;
+    margin-top: 0%;
+    margin-left: 31%;
+}
+.gambar p{
+    display: block;
+    color: rgb(160, 13, 13);
+    font-size: 28px;
+    text-align: center;
+}
